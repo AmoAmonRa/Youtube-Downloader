@@ -1,1 +1,1 @@
-Change video to True for downloading videos
+Change video variable to True for downloading videos
