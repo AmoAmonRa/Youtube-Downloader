@@ -1,5 +1,6 @@
 import yt_dlp
 video = False
+music_down_adderess = r''
 def yt_down(url):
     if video:
         ydl_opts = {
@@ -11,7 +12,7 @@ def yt_down(url):
         }
     else:
         ydl_opts = {
-            'outtmpl': r'C:\Users\AmonRa\Music\%(title)s.%(ext)s',
+            'outtmpl': rf'{music_down_adderess}\%(title)s.%(ext)s',
             'format': 'mp3/bestaudio/best',
             'keepvideo':False,
             # ℹ️ See help(yt_dlp.postprocessor) for a list of available Postprocessors and         their arguments
