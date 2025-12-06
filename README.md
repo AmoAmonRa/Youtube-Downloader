@@ -28,9 +28,9 @@ A professional, user-friendly GUI application for downloading YouTube videos and
    ```bash
    pip install customtkinter yt-dlp requests Pillow
    ```
-3. **Install FFmpeg**:
-   - Download from [FFmpeg official site](https://ffmpeg.org/download.html).
-   - Add to PATH or configure yt-dlp to find it.
+3. **Install FFmpeg** (choose one option):
+   - **Automatic (recommended)**: Run `install_ffmpeg.bat` in the project directory. This downloads and installs FFmpeg automatically, adding it to your PATH.
+   - **Manual**: Download from [FFmpeg official site](https://ffmpeg.org/download.html) and add to PATH.
 
 4. Run the application:
    ```bash
